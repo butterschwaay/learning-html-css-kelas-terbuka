@@ -1,0 +1,56 @@
+/* Universal Selector */
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* type selector */
+
+h1 {
+    color: chocolate;
+}
+
+h2{
+    color: darkblue;
+}
+
+/* class selector */
+
+li.sarapan{
+    color: darkgoldenrod;
+}
+
+/* id selector */
+
+#maksi_senin{
+    color: darkred;
+}
+
+/* child selector */
+
+p>b{
+    color: darkorange;
+}
+
+li>b {
+color: blueviolet;
+}
+
+
+/* descendant selector */
+
+p b{
+    color: rgb(82, 124, 202);
+}   
+
+/* adjacent sibling selector */
+
+p+h2 {
+    color: deeppink;
+}
+
+/* general sibling selector */
+
+h2~p{
+    font-family: 'Times New Roman', Times, serif
+}
