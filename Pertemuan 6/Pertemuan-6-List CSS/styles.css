@@ -1,0 +1,36 @@
+*{
+    font-family: Arial;
+}
+
+h1{
+    font-size: 25px;
+    color: crimson;
+}
+
+ol{
+    /* list-style-type: lower-roman; */
+    /* list-style-type: upper-latin; */
+    /* list-style-type: lower-latin; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type: lower-alpha; */
+    list-style: decimal;
+}
+
+ul{
+    width: 30em;
+}
+
+ul li{
+    margin: 1em;
+    /* List Posisi */
+    list-style-position: inside;
+    /* list-style-position: outside; */
+}
+
+ol.singkat{
+    list-style: lower-greek inside;
+}
+
+ul.singkat{
+    list-style: circle inside;
+}

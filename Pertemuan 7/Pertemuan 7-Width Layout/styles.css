@@ -1,0 +1,48 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    font-family: arial;
+}
+
+#header h1{
+    text-align: center;
+}
+
+#nav, #Highlight, #footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #efefef;
+    margin: 10px;
+}
+
+#nav li{
+    display: inline;
+    padding: 5px;
+}
+
+
+#Highlight img{
+    width: 20%;
+}
+
+.column1, .column2, .column3{
+    float: left;
+    background-color: #efefef;
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#content{
+    height: 100%;
+    overflow: auto;
+}
+
+.column2{
+    background-color: aliceblue;
+}
+
+.column3, .column1{
+    background-color: antiquewhite;
+}

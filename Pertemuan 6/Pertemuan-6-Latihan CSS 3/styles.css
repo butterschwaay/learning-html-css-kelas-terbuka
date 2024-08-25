@@ -1,0 +1,107 @@
+.box1{
+    height: 10em;
+    width: 20em;
+    background-color: rgb(175, 173, 173);
+}
+
+.box1 p{
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+}
+
+.box2{
+    height: 10em;
+    width: 18em;
+    background-color: blueviolet;
+}
+
+.box2 h2 {
+    width: 25%;
+    background-color: bisque;
+}
+
+.box2 p{
+    width: 18em;
+    background-color: coral;
+}
+
+/* ukuran minimum dan maksimum dari box */
+
+td{
+    background-color: cadetblue;
+}
+
+td.deskripsi{
+    min-width: 15em;
+    max-width: 19.5em;
+    background-color: orangered;
+}
+
+/* overflow */
+
+h2,h3{
+    font-family: arial;
+    color: dodgerblue;
+}
+
+p.satu{
+    height: 10em ;
+    width: 8em;
+    overflow: hidden;
+}
+
+p.dua{
+    height: 10em;
+    width: 8em;
+    overflow: scroll;
+}
+
+/* border, padding, margin */
+
+div.box4{
+    width: fit-content;
+    height: fit-content;
+    background-color: gainsboro;
+
+    /* margin */
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-bottom: 5em;
+
+    /* padding */
+    padding-top: 0.3em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-bottom: 0.3em;
+
+    /* border */
+    border: 0.3em solid black;
+
+}
+
+
+
+p.hello b{
+    font-family: arial;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 0.2em solid papayawhip;
+}
+
+p.hello{
+    background-color: coral;
+    width: fit-content;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+
+    /* margin */
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+
+    /* border */
+    border: 0.3em solid palevioletred;
+}
